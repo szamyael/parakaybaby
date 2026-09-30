@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Grade 10 English interactive lesson on Technical Editing, Animation, Vectors, and Video Editing." />
+  <title>Visual Stories Lab | Technical Editing & Animation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#lesson">Skip to lesson</a>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true">VS</div>
+      <div>
+        <div class="eyebrow">GRADE 10 ENGLISH</div>
+        <div class="brand-name">Visual Stories Lab</div>
+      </div>
+    </div>
+    <div class="topbar-actions">
+      <div class="progress-wrap" aria-label="Lesson progress">
+        <span id="progressLabel">0% complete</span>
+        <div class="progress-track"><div id="progressBar" class="progress-bar"></div></div>
+      </div>
+      <button id="surpriseTopBtn" class="btn btn-ghost" type="button">🎲 Surprise Me</button>
+    </div>
+  </header>
+
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Lesson navigation">
+      <div class="sidebar-heading">Lesson Map</div>
+      <nav id="lessonNav">
+        <a href="#start" data-section="start">Start Here</a>
+        <a href="#technical-editing" data-section="technical-editing">1. Technical Editing</a>
+        <a href="#why-editing" data-section="why-editing">2. Why It Matters</a>
+        <a href="#editing-video" data-section="editing-video">3. Editing a Video</a>
+        <a href="#editing-vs-video" data-section="editing-vs-video">4. Technical vs Video Editing</a>
+        <a href="#documentary" data-section="documentary">5. Documentary Example</a>
+        <a href="#animation" data-section="animation">6. Animation</a>
+        <a href="#animation-use" data-section="animation-use">7–8. Why & Where</a>
+        <a href="#animation-types" data-section="animation-types">9. Animation Types</a>
+        <a href="#animation-purpose" data-section="animation-purpose">10. Give It a Purpose</a>
+        <a href="#together" data-section="together">11–12. Together + Before/After</a>
+        <a href="#vectors" data-section="vectors">13. Vectors</a>
+        <a href="#connection" data-section="connection">14. The Connection</a>
+        <a href="#formula" data-section="formula">15. Show → Move → Check</a>
+        <a href="#recycling" data-section="recycling">16. Recycling Example</a>
+        <a href="#watcher" data-section="watcher">17. Questions to Ask</a>
+        <a href="#difference" data-section="difference">18. Key Difference</a>
+        <a href="#volcano" data-section="volcano">19. Complete Example</a>
+        <a href="#takeaways" data-section="takeaways">20. Key Takeaways</a>
+        <a href="#quiz" data-section="quiz">🧠 Quiz Zone</a>
+        <a href="#storyboard" data-section="storyboard">🎬 Storyboard Studio</a>
+      </nav>
+      <div class="sidebar-card">
+        <div class="sidebar-card-title">Memory Cue</div>
+        <div class="memory-cue"><b>VECTOR</b><span>SHOW IT</span></div>
+        <div class="memory-cue"><b>ANIMATION</b><span>MOVE IT</span></div>
+        <div class="memory-cue"><b>TECHNICAL EDITING</b><span>CHECK IT</span></div>
+        <div class="memory-cue"><b>VIDEO EDITING</b><span>ARRANGE IT</span></div>
+      </div>
+    </aside>
+
+    <main id="lesson" class="content">
+      <section id="start" class="hero section-anchor">
+        <div class="hero-copy">
+          <div class="pill">Informational Texts • Documentaries & Vlogs</div>
+          <h1>Make information <span>clear.</span><br/>Make visuals <span>move.</span></h1>
+          <p class="hero-lede">Explore how technical editing, animation, vectors, and video editing work together to help an audience understand an informational message.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#technical-editing">Start the lesson →</a>
+            <button id="surpriseHeroBtn" class="btn btn-secondary" type="button">🎲 Test me</button>
+          </div>
+          <div class="hero-stats">
+            <div><strong>4</strong><span>core concepts</span></div>
+            <div><strong>5+</strong><span>interactive demos</span></div>
+            <div><strong>1</strong><span>storyboard challenge</span></div>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Animated overview diagram">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="core-node">MESSAGE</div>
+          <div class="orbit-node node-vector">VECTOR<br/><small>SHOW IT</small></div>
+          <div class="orbit-node node-animation">ANIMATION<br/><small>MOVE IT</small></div>
+          <div class="orbit-node node-edit">TECHNICAL<br/>EDITING<br/><small>CHECK IT</small></div>
+          <div class="orbit-node node-video">VIDEO<br/>EDITING<br/><small>ARRANGE IT</small></div>
+        </div>
+      </section>
+
+      <section id="technical-editing" class="lesson-section section-anchor">
+        <div class="section-kicker">01 • CHECK THE INFORMATION</div>
+        <h2>What is Technical Editing?</h2>
+        <div class="definition-card">
+          <div class="definition-icon">✓</div>
+          <div>
+            <p class="definition-main">Technical editing is the process of reviewing, organizing, and improving specialized information so that it is <b>accurate, clear, consistent, and easy for the intended audience to understand.</b></p>
+            <p class="definition-simple"><b>In simple words:</b> check and improve the details of an informational material so people will understand it correctly.</p>
+          </div>
+        </div>
+        <div class="two-col">
+          <div class="card">
+            <h3>What is the editor really checking?</h3>
+            <div class="check-grid">
+              <div>🔎 Information</div><div>🏷️ Terms</div><div>📏 Numbers</div><div>🧭 Labels</div><div>💬 Captions</div><div>🖼️ Visuals</div><div>🧩 Sequence</div><div>🎧 Audio clarity</div>
+            </div>
+          </div>
+          <div class="card misconception">
+            <div class="mini-badge">COMMON MISCONCEPTION</div>
+            <h3>“Making a video look nice” is not the main concern.</h3>
+            <p>The main concern is whether the information is correct, understandable, organized, and appropriate for the audience.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="why-editing" class="lesson-section section-anchor tinted">
+        <div class="section-kicker">02 • WHY IT MATTERS</div>
+        <h2>Five qualities of strong technical editing</h2>
+        <p class="section-intro">Tap a card to see the question an editor should ask.</p>
+        <div class="quality-grid">
+          <button class="quality-card" data-pop="Are the facts, numbers, labels, and terminology correct?" type="button"><span>01</span><b>Accurate</b><small>Facts & details are correct.</small></button>
+          <button class="quality-card" data-pop="Can the audience easily understand the explanation?" type="button"><span>02</span><b>Clear</b><small>The explanation is understandable.</small></button>
+          <button class="quality-card" data-pop="Are terms, labels, units, formatting, and visual elements used consistently?" type="button"><span>03</span><b>Consistent</b><small>Patterns stay consistent.</small></button>
+          <button class="quality-card" data-pop="Does information appear in a logical sequence?" type="button"><span>04</span><b>Organized</b><small>The sequence makes sense.</small></button>
+          <button class="quality-card" data-pop="Does the explanation match the knowledge level of the intended audience?" type="button"><span>05</span><b>Appropriate</b><small>It fits the audience.</small></button>
+        </div>
+        <div class="example-strip">
+          <div class="example-label">EDITOR'S CHECK</div>
+          <p>“The temperature of the Sun is 5,500°C.”</p>
+          <span>Check whether the information is correct and whether the video clearly explains what temperature is being discussed.</span>
+        </div>
+      </section>
+
+      <section id="editing-video" class="lesson-section section-anchor">
+        <div class="section-kicker">03 • TECHNICAL EDITING IN A VIDEO</div>
+        <h2>Editing is a visual-and-information check</h2>
+        <p class="section-intro">Use the filter below to inspect a water-cycle video frame by frame.</p>
+        <div class="water-demo card">
+          <div class="demo-toolbar">
+            <div><b>Topic: Water Cycle</b><span id="waterStageLabel">Stage 1 • Evaporation</span></div>
+            <div class="toolbar-buttons"><button class="icon-btn" id="waterPrev">←</button><button class="btn btn-primary small" id="waterPlay">▶ Play</button><button class="icon-btn" id="waterNext">→</button></div>
+          </div>
+          <div class="water-stage" id="waterStage">
+            <div class="sun">☀</div><div class="cloud c1">☁</div><div class="cloud c2">☁</div><div class="mountain">⌁⌁⌁</div>
+            <div class="water-base"></div><div class="drop-stream"></div><div class="rain-drops"></div>
+            <div class="stage-annotation" id="waterAnnotation">Water rises from the surface.</div>
+          </div>
+          <div class="water-checks" id="waterChecks"></div>
+        </div>
+      </section>
+
+      <section id="editing-vs-video" class="lesson-section section-anchor">
+        <div class="section-kicker">04 • DO NOT CONFUSE THE TWO</div>
+        <h2>Technical Editing vs. Video Editing</h2>
+        <p class="section-intro">Drag or click each task into the right category.</p>
+        <div class="sorter card">
+          <div class="task-bank" id="taskBank">
+            <button class="sort-task" data-answer="technical" type="button">Check scientific terminology</button>
+            <button class="sort-task" data-answer="video" type="button">Cut unnecessary footage</button>
+            <button class="sort-task" data-answer="technical" type="button">Check measurements</button>
+            <button class="sort-task" data-answer="video" type="button">Arrange clips</button>
+            <button class="sort-task" data-answer="technical" type="button">Check whether visuals match the explanation</button>
+            <button class="sort-task" data-answer="video" type="button">Adjust audio</button>
+            <button class="sort-task" data-answer="technical" type="button">Improve clarity</button>
+            <button class="sort-task" data-answer="video" type="button">Add transitions</button>
+          </div>
+          <div class="sort-columns">
+            <button class="sort-column technical-col" data-target="technical" type="button"><span>TECHNICAL EDITING</span><small>“Is the information correct and clear?”</small><div class="drop-zone" id="technicalDrop"></div></button>
+            <button class="sort-column video-col" data-target="video" type="button"><span>VIDEO EDITING</span><small>“How should the video be arranged and presented?”</small><div class="drop-zone" id="videoDrop"></div></button>
+          </div>
+          <div class="sort-feedback" id="sortFeedback">Select a task, then choose its category.</div>
+        </div>
+      </section>
+
+      <section id="documentary" class="lesson-section section-anchor tinted">
+        <div class="section-kicker">05 • DOCUMENTARY EXAMPLE</div>
+        <h2>When a good-looking visual teaches the wrong thing</h2>
+        <div class="before-after">
+          <div class="ba-card bad">
+            <div class="ba-label">BEFORE TECHNICAL EDITING</div>
+            <div class="diagram-title">Volcano explanation</div>
+            <div class="volcano-diagram wrong"><div class="core">EARTH'S CORE</div><div class="arrow">↓</div><div class="volcano-shape">▲</div><div class="arrow">↓</div><div class="lava-word">LAVA</div></div>
+            <p>“Lava comes from the Earth's core.”</p>
+            <small>The diagram can create a misconception.</small>
+          </div>
+          <div class="ba-arrow">→</div>
+          <div class="ba-card good">
+            <div class="ba-label">AFTER TECHNICAL EDITING</div>
+            <div class="diagram-title">Corrected visual explanation</div>
+            <div class="volcano-diagram corrected"><div class="layer crust">GEOLOGICAL LAYERS</div><div class="layer magma">MAGMA MOVEMENT</div><div class="volcano-shape">▲</div><div class="lava-word">LAVA</div></div>
+            <p>The visual is corrected so the relevant geological layers and magma movement are represented accurately.</p>
+            <small>Good visuals must communicate correct information.</small>
+          </div>
+        </div>
+      </section>
+
+      <section id="animation" class="lesson-section section-anchor">
+        <div class="section-kicker">06 • MAKE VISUALS MOVE</div>
+        <h2>What is Animation?</h2>
+        <div class="definition-card animation-def">
+          <div class="definition-icon">▶</div>
+          <div>
+            <p class="definition-main">Animation is the process of creating the appearance of movement by changing images, objects, or digital elements over time.</p>
+            <p class="definition-simple"><b>In simple words:</b> animation makes something appear to move.</p>
+          </div>
+        </div>
+        <div class="micro-motion card">
+          <div class="micro-ball" id="microBall">●</div>
+          <div><b>Watch the idea</b><p>A ball can appear to bounce, an arrow can move across a diagram, text can appear, a map can zoom, or water droplets can move through a cycle.</p></div>
+          <button class="btn btn-secondary small" id="bounceBtn" type="button">Animate</button>
+        </div>
+      </section>
+
+      <section id="animation-use" class="lesson-section section-anchor">
+        <div class="section-kicker">07–08 • WHY & WHERE</div>
+        <h2>Animation can reveal processes we cannot easily film</h2>
+        <div class="process-tabs">
+          <button class="process-tab active" data-topic="water" type="button">Water Cycle</button>
+          <button class="process-tab" data-topic="body" type="button">Human Body</button>
+          <button class="process-tab" data-topic="earthquake" type="button">Earthquake</button>
+          <button class="process-tab" data-topic="solar" type="button">Solar System</button>
+        </div>
+        <div class="process-panel card" id="processPanel"></div>
+      </section>
+
+      <section id="animation-types" class="lesson-section section-anchor tinted">
+        <div class="section-kicker">09 • COMMON TYPES</div>
+        <h2>Four useful animation types</h2>
+        <div class="type-grid">
+          <article class="type-card" tabindex="0"><div class="type-icon">↗</div><h3>Motion Graphics</h3><p>Graphic elements that move.</p><div class="type-demo motion-demo"><span>2020: 10M</span><span>2025: 12M</span><span>2030: 15M</span></div></article>
+          <article class="type-card" tabindex="0"><div class="type-icon">☁</div><h3>Animated Diagrams</h3><p>A static diagram becomes a moving process.</p><div class="type-demo cycle-demo"><span>WATER</span><i>↑</i><span>CLOUD</span><i>↓</i><span>RAIN</span></div></article>
+          <article class="type-card" tabindex="0"><div class="type-icon">●</div><h3>Character Animation</h3><p>Characters or illustrated people are made to move.</p><div class="type-demo character-demo"><span>DROP</span><span>COVER</span><span>HOLD ON</span></div></article>
+          <article class="type-card" tabindex="0"><div class="type-icon">T</div><h3>Text Animation</h3><p>Text can appear, move, change size, or disappear.</p><div class="type-demo text-demo">STOP</div></article>
+        </div>
+        <div class="warning-note">⚠️ Too much movement can distract the audience.</div>
+      </section>
+
+      <section id="animation-purpose" class="lesson-section section-anchor">
+        <div class="section-kicker">10 • PURPOSE, NOT DECORATION</div>
+        <h2>Does the movement help the audience understand?</h2>
+        <div class="purpose-compare">
+          <div class="purpose-card poor"><span class="status">POOR USE</span><div class="noisy-stage"><b>SCIENCE!</b><span>↻</span><span>↯</span><span>✦</span><span>↺</span></div><p>Spinning text, flashing backgrounds, bouncing titles, unnecessary transitions, and constantly moving objects can make concentration harder.</p></div>
+          <div class="purpose-card good"><span class="status">BETTER USE</span><div class="focused-stage"><div class="arrow-flow">EVAPORATION → CONDENSATION → PRECIPITATION</div></div><p>The animation directly helps the viewer understand the process.</p></div>
+        </div>
+      </section>
+
+      <section id="together" class="lesson-section section-anchor tinted">
+        <div class="section-kicker">11–12 • WORK AS A SYSTEM</div>
+        <h2>Technical Editing + Animation</h2>
+        <div class="three-step">
+          <div class="step-card"><span>STEP 1</span><b>Technical Editing</b><p>Check terms, process accuracy, labels, and logical organization.</p></div>
+          <div class="step-card"><span>STEP 2</span><b>Animation</b><p>Make water droplets move upward, clouds form, rain fall, and arrows show movement.</p></div>
+          <div class="step-card"><span>STEP 3</span><b>Final Check</b><p>Ask: “Does the animation correctly represent the information?”</p></div>
+        </div>
+        <div class="safety-demo">
+          <div class="safety-scene"><div class="student">🧑</div><div id="safetyInstruction" class="safety-instruction">EARTHQUAKE SAFETY</div></div>
+          <div class="safety-controls"><button class="btn btn-secondary small" data-safety="DROP">1 • DROP</button><button class="btn btn-secondary small" data-safety="COVER">2 • COVER</button><button class="btn btn-secondary small" data-safety="HOLD ON">3 • HOLD ON</button></div>
+          <p id="safetyCaption">Choose a step to see how animation can present an instructional sequence.</p>
+        </div>
+      </section>
+
+      <section id="vectors" class="lesson-section section-anchor">
+        <div class="section-kicker">13 • BUILD THE VISUAL</div>
+        <h2>What role do vectors play?</h2>
+        <div class="vector-explorer card">
+          <div class="vector-copy">
+            <div class="mini-badge">VECTOR GRAPHICS</div>
+            <p>Vector graphics are digital graphics made from mathematically defined points, lines, curves, and shapes.</p>
+            <p><b>Key advantage:</b> they can generally be enlarged or reduced without losing sharpness.</p>
+            <div class="vector-list"><span>➜ arrows</span><span>◆ icons</span><span>▦ diagrams</span><span>▤ charts</span><span>◉ symbols</span><span>✎ technical illustrations</span></div>
+          </div>
+          <div class="vector-demo">
+            <div class="vector-canvas"><div id="vectorArrow">➜</div><div class="vector-label">TECTONIC PLATE MOVEMENT</div></div>
+            <label for="vectorScale">Scale the vector: <span id="vectorScaleLabel">100%</span></label>
+            <input id="vectorScale" type="range" min="60" max="240" value="100" />
+            <p id="vectorSharpness" class="feedback-good">Sharp at every scale.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="connection" class="lesson-section section-anchor tinted">
+        <div class="section-kicker">14 • THREE CONCEPTS, ONE VIDEO</div>
+        <h2>How Vectors, Technical Editing, and Animation connect</h2>
+        <div class="connection-stage">
+          <button class="connection-node node-v" data-connection="vector" type="button"><b>VECTOR</b><small>Create the visual</small></button>
+          <div class="connection-line">→</div>
+          <button class="connection-node node-t" data-connection="technical" type="button"><b>TECHNICAL EDITING</b><small>Check the visual</small></button>
+          <div class="connection-line">→</div>
+          <button class="connection-node node-a" data-connection="animation" type="button"><b>ANIMATION</b><small>Make it move</small></button>
+        </div>
+        <div class="connection-detail card" id="connectionDetail">Select a concept above.</div>
+      </section>
+
+      <section id="formula" class="lesson-section section-anchor">
+        <div class="section-kicker">15 • EASY MEMORY FORMULA</div>
+        <h2>SHOW IT → MOVE IT → CHECK IT</h2>
+        <div class="formula-flow">
+          <button class="formula-card show" data-formula="Use vectors to create clear diagrams, shapes, arrows, symbols, and illustrations." type="button"><strong>VECTOR</strong><span>SHOW IT</span><small>Build the visual idea.</small></button>
+          <span>→</span>
+          <button class="formula-card move" data-formula="Use animation to show movement, change, sequence, or process." type="button"><strong>ANIMATION</strong><span>MOVE IT</span><small>Show what happens.</small></button>
+          <span>→</span>
+          <button class="formula-card check" data-formula="Check whether information, labels, visuals, and presentation are accurate, clear, organized, and appropriate." type="button"><strong>TECHNICAL EDITING</strong><span>CHECK IT</span><small>Verify the message.</small></button>
+        </div>
+        <div id="formulaDetail" class="formula-detail">Tap a card to expand the idea.</div>
+      </section>
+
+      <section id="recycling" class="lesson-section section-anchor tinted">
+        <div class="section-kicker">16 • REAL-LIFE EXAMPLE</div>
+        <h2>A 30-second recycling video</h2>
+        <div class="timeline" id="recyclingTimeline">
+          <button class="timeline-step active" data-scene="1" type="button"><span>01</span><b>Question</b><small>“Why should we recycle?”</small></button>
+          <button class="timeline-step" data-scene="2" type="button"><span>02</span><b>Labels</b><small>Paper • Plastic • Glass</small></button>
+          <button class="timeline-step" data-scene="3" type="button"><span>03</span><b>Action</b><small>Bottle moves to the bin.</small></button>
+          <button class="timeline-step" data-scene="4" type="button"><span>04</span><b>Key message</b><small>Reduce waste.</small></button>
+        </div>
+        <div class="recycling-stage card" id="recyclingStage"></div>
+      </section>
+
+      <section id="watcher" class="lesson-section section-anchor">
+        <div class="section-kicker">17 • BE A CRITICAL VIEWER</div>
+        <h2>Questions students should ask when watching</h2>
+        <div class="question-columns">
+          <div class="question-card"><h3>About Technical Editing</h3><ol><li>Is the information accurate?</li><li>Are the terms used correctly?</li><li>Are the labels and numbers correct?</li><li>Are the visuals consistent with the explanation?</li><li>Is the information organized clearly?</li><li>Can the intended audience understand it?</li></ol></div>
+          <div class="question-card"><h3>About Animation</h3><ol><li>What is moving?</li><li>Why is it moving?</li><li>Does the movement help explain something?</li><li>Does the animation show a process or sequence?</li><li>Does it help the viewer understand the message?</li><li>Is the animation distracting?</li></ol></div>
+        </div>
+      </section>
+
+      <section id="difference" class="lesson-section section-anchor tinted">
+        <div class="section-kicker">18 • THE MOST IMPORTANT DIFFERENCE</div>
+        <h2>Four concepts. Four guiding questions.</h2>
+        <div class="difference-table">
+          <div class="diff-head">Concept</div><div class="diff-head">Main purpose</div><div class="diff-head">Simple question</div>
+          <div><b>Technical Editing</b></div><div>Improve accuracy, clarity, organization, and consistency of specialized information.</div><div class="question-badge">Is it correct and clear?</div>
+          <div><b>Animation</b></div><div>Create movement to explain or emphasize information.</div><div class="question-badge">Does the movement help us understand?</div>
+          <div><b>Vector</b></div><div>Create clear, scalable visual elements such as diagrams and symbols.</div><div class="question-badge">What visual can show the idea?</div>
+          <div><b>Video Editing</b></div><div>Arrange and modify video/audio elements.</div><div class="question-badge">How should the video be presented?</div>
+        </div>
+      </section>
+
+      <section id="volcano" class="lesson-section section-anchor">
+        <div class="section-kicker">19 • COMPLETE EXAMPLE</div>
+        <h2>How a volcano erupts — one visual story</h2>
+        <div class="volcano-story card">
+          <div class="story-steps" id="volcanoSteps">
+            <button class="story-step active" data-volcano="vector" type="button">1<br/><b>Vector</b></button>
+            <button class="story-step" data-volcano="technical" type="button">2<br/><b>Technical Editing</b></button>
+            <button class="story-step" data-volcano="animation" type="button">3<br/><b>Animation</b></button>
+            <button class="story-step" data-volcano="video" type="button">4<br/><b>Video Editing</b></button>
+          </div>
+          <div class="volcano-scene"><div class="volcano-mountain"></div><div id="magma" class="magma-pulse"></div><div id="pressure" class="pressure-label">PRESSURE ↑</div><div id="eruption" class="eruption-label">ERUPTION</div></div>
+          <div class="volcano-caption" id="volcanoCaption">Clean diagram: Magma chamber → Volcano → Crater, with arrows showing direction.</div>
+        </div>
+      </section>
+
+      <section id="takeaways" class="lesson-section section-anchor tinted">
+        <div class="section-kicker">20 • TAKE IT WITH YOU</div>
+        <h2>The four ideas to remember</h2>
+        <div class="takeaway-grid">
+          <div><b>TECHNICAL EDITING</b><span>Check and improve the information.</span></div>
+          <div><b>ANIMATION</b><span>Make visual elements move.</span></div>
+          <div><b>VECTOR</b><span>Create clear visual elements.</span></div>
+          <div><b>VIDEO EDITING</b><span>Arrange the video.</span></div>
+        </div>
+        <div class="main-idea"><div class="spark">✦</div><p><b>Main idea:</b> In an informational documentary or vlog, visual elements should not be added just because they look attractive. They should have a clear purpose and help the audience understand the intended message.</p></div>
+      </section>
+
+      <section id="quiz" class="lesson-section section-anchor quiz-section">
+        <div class="section-kicker">ASSESSMENT • KNOWLEDGE CHECK</div>
+        <h2>Quiz Zone</h2>
+        <p class="section-intro">Answer each question, then submit to see your score and explanations.</p>
+        <form id="quizForm" class="quiz-form"></form>
+        <div class="quiz-actions"><button class="btn btn-primary" id="submitQuiz" type="button">Submit quiz</button><button class="btn btn-ghost" id="resetQuiz" type="button">Reset</button></div>
+        <div id="quizResult" class="quiz-result" aria-live="polite"></div>
+      </section>
+
+      <section id="storyboard" class="lesson-section section-anchor storyboard-section">
+        <div class="section-kicker">PROJECT • HANDS-ON ACTIVITY</div>
+        <h2>Storyboard Studio</h2>
+        <p class="section-intro">Create a short informational video plan using the lesson formula: <b>SHOW IT → MOVE IT → CHECK IT.</b></p>
+        <div class="challenge-banner"><span>🎬</span><div><b>Your challenge:</b> Plan a 30-second informational video about one topic from the lesson, such as the water cycle, earthquake safety, volcano eruption, or recycling.</div></div>
+        <div class="storyboard-meta card">
+          <label>Project title<input id="projectTitle" type="text" placeholder="e.g., Recycling: Show It, Move It, Check It" /></label>
+          <label>Target audience<input id="targetAudience" type="text" placeholder="e.g., Grade 10 students" /></label>
+        </div>
+        <div id="storyboardGrid" class="storyboard-grid"></div>
+        <div class="storyboard-actions"><button class="btn btn-primary" id="saveStoryboard" type="button">Save storyboard</button><button class="btn btn-secondary" id="printStoryboard" type="button">Print / Export</button><button class="btn btn-ghost" id="clearStoryboard" type="button">Clear</button></div>
+        <div id="storyboardStatus" class="storyboard-status" aria-live="polite"></div>
+      </section>
+
+      <footer class="footer">
+        <div><b>Visual Stories Lab</b><span>Grade 10 English • Technical Editing & Animation</span></div>
+        <div>Lesson content adapted directly from the uploaded PDF lesson material.</div>
+      </footer>
+    </main>
+  </div>
+
+  <div id="surpriseModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="surpriseTitle" hidden>
+    <div class="modal-backdrop"></div>
+    <div class="modal-card surprise-card">
+      <button class="modal-close" id="closeSurprise" type="button" aria-label="Close">×</button>
+      <div class="surprise-mark">?</div>
+      <div class="mini-badge">SURPRISE QUESTION</div>
+      <h2 id="surpriseTitle">Ready?</h2>
+      <p id="surpriseQuestion"></p>
+      <div id="surpriseOptions" class="surprise-options"></div>
+      <div id="surpriseFeedback" class="surprise-feedback"></div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
